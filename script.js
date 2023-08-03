@@ -15,3 +15,8 @@ for (let i = 1; i <= 16; i++) {
     row.appendChild(block);
   }
 }
+
+let elements = document.querySelectorAll('.block');
+elements.forEach(block => block.addEventListener('mouseover',function handleMouseOver(){
+  block.classList.add("hover");
+}))
