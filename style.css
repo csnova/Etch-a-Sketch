@@ -9,7 +9,9 @@ body {
     box-sizing: border-box;
     height: 100%;
 }
-
+button {
+    margin: 10px;
+}
 .mainContainer {
     display: flex;
 }
@@ -21,15 +23,7 @@ body {
 .block {
     border-style: solid ;
     border-color: black;
+    box-sizing: border-box;
+    border-width: 0.5px;
     background-color: azure;
-    min-width: 40px;
-    min-height: 40px;
-}
-
-.hover {
-    border-style: solid ;
-    border-color: black;
-    background-color: teal;
-    min-width: 40px;
-    min-height: 40px;
 }
